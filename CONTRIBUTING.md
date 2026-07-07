@@ -32,3 +32,19 @@ present continuous tense (i.e. 'adding' not 'added').
 
 [1]: https://www.gnu.org/licenses/license-list.html
 [2]: http://freedomdefined.org/Licenses
+
+## Format ##
+
+Links / tools are added *alphabetically* within their respective category. 
+
+`[Title](ref#) - A short description. [License](ref#).`
+
+Don't use inline links; use reference-style links instead. New URLs are added to the very bottom of the Markdown file, with a sequential ID. Increase by 1 from the previous ID above it. 
+
+Example:
+
+`[Shiny Library](#500) - A library that does XYZ. [MIT](403).`
+
+Append to new URL reference to end (be sure to match the link number):
+
+`[500]: https://example.com/ShinyLibrary`
